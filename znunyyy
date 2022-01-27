@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ara Gonzaga</title>
+    <style>
+        #GFG {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #GFG::before {
+            content: "";
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            background: url(znuny.jpg);
+            background-position: center;
+            background-size: cover;
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body>
+    <div id="GFG">
+        <h2>
+      73 32 108 
+      111 118 101 
+      32 121 111 
+      117 32 115 
+      111 32 109 
+      117 99 104 
+      44 32 73 
+      99 104 97 
+      110 46 32
+      </h2>
+    </div>
+</body>
+</html>
